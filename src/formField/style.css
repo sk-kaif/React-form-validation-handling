@@ -1,0 +1,36 @@
+.inputField {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.inputField label {
+    color: black;
+    min-width: 150px;
+}
+
+.inputField span {
+    font-size: 14px;
+    color: red;
+    margin: 0 0 1rem 0;
+    /* display: none; */
+}
+
+
+/* input invalid k sth foused bhi check krnge */
+/* .inputField input:invalid[focused=true] ~ span{
+    display: block;
+    color: red;
+} */
+
+.inputField input {
+    background: transparent;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    height: 55px;
+    border-radius: 8px;
+    padding: 0 10px;
+    color: black;
+    font-size: 16px;
+}
